@@ -1,1 +1,102 @@
-<!-- intake content placeholder -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intake | Tell Me What Broke</title>
+  <meta name="description" content="Submit an intake to see whether your system failure situation is a fit for this practice." />
+  <meta property="og:title" content="Intake | Tell Me What Broke" />
+  <meta property="og:description" content="Submit an intake to see whether your system failure situation is a fit for this practice." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#05060a" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+</head>
+<body>
+<div class="page">
+
+<header class="site-header">
+  <div class="nav-bar container">
+    <a href="index.html" class="brand">
+      <span class="brand-main">KAYLA COLLINS</span>
+      <span class="brand-sub">SYSTEM FAILURE RESOLUTION</span>
+    </a>
+    <nav class="nav-desktop">
+      <a href="index.html" class="nav-link">Home</a> <a href="services.html" class="nav-link">Services</a> <a href="process.html" class="nav-link">Process</a> <a href="cases.html" class="nav-link">Case Examples</a> <a href="pricing.html" class="nav-link">Pricing</a> <a href="about.html" class="nav-link">About</a> <a href="attorneys.html" class="nav-link">For Attorneys & Clinics</a> <a href="intake.html" class="nav-link active">Intake</a> <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span>
+    </button>
+  </div>
+  <nav class="nav-mobile">
+    <a href="index.html" class="nav-link">Home</a> <a href="services.html" class="nav-link">Services</a> <a href="process.html" class="nav-link">Process</a> <a href="cases.html" class="nav-link">Case Examples</a> <a href="pricing.html" class="nav-link">Pricing</a> <a href="about.html" class="nav-link">About</a> <a href="attorneys.html" class="nav-link">For Attorneys & Clinics</a> <a href="intake.html" class="nav-link">Intake</a> <a href="contact.html" class="nav-link">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="section section-light scroll-reveal">
+    <div class="container narrow">
+      <h1>Intake</h1>
+      <p class="section-lead">
+        This form helps determine fit and scope. Plain language is welcome—you
+        do not need to write in “official” style for this to be useful.
+      </p>
+
+      <form class="intake-form" action="mailto:kaylacollins3@icloud.com" method="post" enctype="text/plain">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+        <div class="field">
+          <label for="type">Type of situation</label>
+          <select id="type" name="type">
+            <option>Insurance / medical breakdown</option>
+            <option>Billing / collections / dispute</option>
+            <option>Program / access / compliance</option>
+            <option>Mixed / not sure</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="deadlines">Deadlines or time limits (if any)</label>
+          <input id="deadlines" name="deadlines" type="text" placeholder="Example: appeal due in 14 days, service cut-off notice, program deadline" />
+        </div>
+        <div class="field">
+          <label for="story">What happened?</label>
+          <textarea id="story" name="story" rows="7" placeholder="Describe your situation in your own words, including key dates and what you are hoping to change or understand."></textarea>
+        </div>
+        <div class="field">
+          <label for="docs">Do you already have documents collected?</label>
+          <input id="docs" name="docs" type="text" placeholder="Yes / No / In progress" />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit Intake</button>
+      </form>
+
+      <p class="intake-note">
+        Submitting this form does not create an attorney–client relationship or
+        guarantee availability. It is used solely to determine whether your matter
+        is appropriate for this type of support.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-left">
+      <p class="footer-brand">© 2025 Kayla Collins</p>
+      <p class="footer-tag">Remote • Documentation-First • System Failure Resolution</p>
+    </div>
+    <div class="footer-links">
+      <a href="legal/privacy.html">Privacy</a>
+      <a href="legal/terms.html">Terms</a>
+    </div>
+  </div>
+</footer>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
